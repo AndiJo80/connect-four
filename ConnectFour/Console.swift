@@ -7,6 +7,9 @@
 
 import Foundation
 
+/**
+  * Utility methods to output text to the console
+ */
 class Console {
 	
 	private init() {

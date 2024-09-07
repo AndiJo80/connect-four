@@ -7,6 +7,9 @@
 
 import Foundation
 
+/**
+ * the player instance
+ */
 class Player {
 	public let name: String
 	public let human: Bool

@@ -7,6 +7,9 @@
 
 import Foundation
 
+/**
+ * Stone or chip which is dropped into the playfield grid
+ */
 public enum Stone: Int, CustomStringConvertible {
 	case none = 0, red = -1, blue = 1
 
@@ -53,6 +56,9 @@ class Position {
 	}
 }
 
+/**
+ * The playfield (or game board) in which the players drop the stones
+ */
 class PlayField {
 	public let sizex: Int
 	public let sizey: Int
